@@ -1,0 +1,294 @@
+body{
+  padding: 0;
+  margin: 0;
+  background: #efefef;
+  color: #222;
+}
+
+::selection {
+  background-color: #ff053b;
+  color: #efefef;
+}
+
+.siteBack{
+  width: 100%;
+  box-sizing: border-box;
+}
+
+header{
+  background: #efefef;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 50px 0;
+  z-index: 100;
+  transition: all 0.4s ease-in-out;
+}
+
+.shrink-header{
+  padding: 5px 0;
+}
+
+.branding{
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logo{
+  background-image: url("../images/VkaLogo.svg");
+  background-position: center;
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  margin-left: 100px;
+}
+
+.logotype{
+  font-family: 'Bree Serif',serif;
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+.navs{
+  position: relative;
+  margin-right: 100px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+a.one{
+  margin-left: 15px;
+  font-family: 'open sans', sans-serif;
+  font-size: 15px;
+  font-weight: 800;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+a.two{
+  color: #222;
+  font-family: 'open sans', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 10px;
+  background: #efefef;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+a.one:hover{
+  color:  #ff053b;
+}
+a.two:hover{
+  background: #ff053b;
+  color: #efefef;
+}
+
+.home{
+  margin-left: 100px;
+  font-family: 'Bree Serif',serif;
+  font-weight: 700;
+  font-size: 80px;
+  position: relative;
+  line-height: 90px;
+  margin-top: 200px;
+}
+
+span{
+  font-size: 100px;
+  cursor: none;
+  text-decoration: underline;
+}
+span:hover{
+  color: #ff053b;
+}
+
+.heading-content{
+  line-height: 20px;
+  margin-top: 50px;
+  width: 40%;
+  color: #848484;
+  font-family: 'Open Sans',sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 15px;
+}
+
+.about{
+  position: relative;
+  width: 100%;
+  height: 400px;
+  color: #efefef;
+  background: #222;
+  padding-top: 5px;
+}
+
+.sec-h{
+  opacity: 0.5;
+  font-family: 'Open Sans',sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  margin-left: 100px;
+  margin-top: 30px;
+}
+
+.lh{
+  font-family: 'Bree Serif',serif;
+  font-weight: 700;
+  font-size: 50px;
+  margin-left: 100px;
+  margin-top: 50px;
+  width: 50%;
+}
+
+.sh{
+  font-family: 'Bree Serif',serif;
+  font-weight: 700;
+  font-size: 30px;
+  width: 50%;
+}
+
+
+.service{
+  position: relative;
+  width: 100%;
+  color: #222;
+  background: #efefef;
+  padding-top: 5px;
+}
+
+.s-wrap{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  /*border: 1px dashed black;*/
+}
+
+.s-item{
+  margin-left: 20px;
+  margin-top: 20px;
+  min-width: 300px;
+  min-height: 350px;
+  max-width: 300px;
+  max-height: 350px;
+  background: #fff;
+  padding: 10px;
+  /*border: 1px dashed red;*/
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.icon01{
+  background-image: url("../images/s01.svg");
+  background-position: center;
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+}
+.icon02{
+  background-image: url("../images/s02.svg");
+  background-position: center;
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+}
+
+
+.icon03{
+  background-image: url("../images/s03.svg");
+  background-position: center;
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+}
+
+.icon04{
+  background-image: url("../images/s04.svg");
+  background-position: center;
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+}
+
+.icon05{
+  background-image: url("../images/s05.svg");
+  background-position: center;
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+}
+
+.icon06{
+  background-image: url("../images/s06.svg");
+  background-position: center;
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+}
+
+.icon07{
+  background-image: url("../images/s07.svg");
+  background-position: center;
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+}
+
+
+
+.title{
+  font-family: 'Bree Serif',serif;
+  font-weight: 700;
+  font-size: 30px;
+  padding: 10px 5px;
+  border-bottom: 2px solid #222;
+}
+
+.content{
+  font-family: 'Open Sans',sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  font-style: italic;
+  padding: 10px 5px;
+  color: #848484;
+}
+
+
+.contact{
+  margin-top: 50px;
+  position: relative;
+  width: 100%;
+  padding-bottom: 50px;
+  color: #efefef;
+  background: #222;
+  padding-top: 5px;
+}
+
+
+.con-c{
+  font-family: 'Open Sans',sans-serif;
+  font-size: 20px;
+  color: #efefef;
+  margin-left: 100px;
+}
+strong{
+  font-size: 25px;
+  font-style: normal;
+  color: #fff;
+}
+
+.con-d{
+  width: 50%;
+  font-style: italic;
+}
